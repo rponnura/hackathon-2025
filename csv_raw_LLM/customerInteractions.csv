@@ -1,0 +1,321 @@
+﻿Industry,Customer Action/Query,Inferred Intent,Customer Classification,Customer Type,Customer Profile
+Banking,I want to open a new savings account.,Interest in new product,New Opportunity,Standard,New Prospect
+Banking,What are the interest rates for home loans?,Researching loan options,Potential Buyer,Standard,Prospective Borrower
+Banking,My credit card bill is unusually high this month. Can you check?,Query about a potential issue,Existing Customer,Standard,Problem Solver
+Banking,I need to understand overdraft fees on my checking account.,Clarification on charges,Risk (Churn/Dissatisfaction),Standard,At-Risk User
+Banking,How do I apply for a personal loan?,Intent to apply for credit,Potential Buyer,Standard,Prospective Borrower
+Banking,I missed my last loan payment. What are my options?,Financial difficulty / delinquency,Risk (Credit),Standard,At-Risk Borrower
+Banking,Can I increase my credit limit?,Seeking more credit / service,Existing Customer,Standard,Engaged User
+Banking,I want to close my account.,Intent to churn,Risk (Churn),Standard,Churn Risk
+Banking,What are your business banking solutions?,Exploring business services,New Opportunity,Small Business,New Prospect
+Banking,I need to dispute a transaction.,Issue resolution,Existing Customer,Standard,Problem Solver
+Banking,I'm interested in setting up direct deposit for my paycheck.,Account setup / service inquiry,New Opportunity / Existing Customer,Standard,Engaged User
+Banking,What are the requirements for a student checking account?,Researching specific account types,Potential Buyer,Student,New Prospect
+Banking,How do I transfer money internationally?,International service inquiry,Existing Customer,Standard,Global Transactor
+Banking,My debit card was lost/stolen. How do I report it?,Security / emergency service,Existing Customer,Standard,Emergency
+Banking,Tell me about your investment accounts.,Exploring investment options,Potential Buyer,Standard,Prospective Investor
+Banking,I'd like to set up a recurring bill payment.,Service setup / convenience,Existing Customer,Standard,Engaged User
+Banking,What is the current exchange rate for USD to EUR?,Currency exchange inquiry,Existing Customer,Standard,Global Transactor
+Banking,I'm having trouble logging into my online banking account.,Technical support,Existing Customer,Standard,Digital User
+Banking,Can I get a copy of my bank statement from last year?,Document request,Existing Customer,Standard,Routine User
+Banking,What are the benefits of your premium checking account?,Upselling potential,Potential Buyer / Existing Customer,Standard,Upsell Target
+Banking,I'm considering refinancing my existing mortgage.,Refinancing inquiry,Potential Buyer / Existing Customer,Standard,Prospective Borrower
+Banking,Do you offer any financial literacy workshops?,Seeking educational resources,Potential Buyer / Existing Customer,Standard,Information Seeker
+Banking,How do I set up mobile banking?,Digital service adoption,Existing Customer,Standard,Digital Adopter
+Banking,I'd like to pre-qualify for a car loan.,Loan pre-qualification,Potential Buyer,Standard,Prospective Borrower
+Banking,What are the fees associated with your safe deposit boxes?,Service inquiry,Potential Buyer / Existing Customer,Standard,Interested User
+Banking,Can I link my external bank account for transfers?,Account Linking Inquiry,Existing Customer,Standard,Engaged User
+Banking,I need to change my PIN for my debit card.,Card Management,Existing Customer,Standard,Routine User
+Banking,What are the steps to apply for a student loan?,Loan Application Inquiry,Potential Buyer,Student,Prospective Borrower
+Banking,I'm calling about a wire transfer I sent yesterday.,Wire Transfer Status,Existing Customer,Standard,Global Transactor
+Banking,How can I set up bill pay for my utilities?,Bill Payment Setup,Existing Customer,Standard,Engaged User
+Banking,What's the process for reporting a phishing email?,Security Reporting,Information Seeker,Standard,Security Conscious
+Banking,I'm interested in consolidating my credit card debt.,Debt Consolidation Inquiry,Potential Buyer / Risk (Debt),Standard,At-Risk Borrower
+Banking,Do you have options for managing multiple business accounts?,Business Account Management,Existing Customer,Small Business,Account Manager
+Banking,I'd like to increase the daily limit on my debit card.,Card Limit Modification,Existing Customer,Standard,Engaged User
+Banking,What are the requirements for opening a trust account?,Specialized Account Inquiry,New Opportunity,High-Net-Worth,Estate Planner
+Banking,My account was frozen. How do I unfreeze it?,Account Status Issue,Existing Customer / Risk (Problem),Standard,Problem Solver
+Banking,How can I get a cashier's check?,Service Request,Existing Customer,Standard,Routine User
+Banking,I need information on foreign currency exchange.,Currency Exchange Info,Existing Customer / Potential Buyer,Standard,Global Transactor
+Banking,What are the penalties for early withdrawal from a CD?,CD Penalty Inquiry,Existing Customer / Risk (Decision),Standard,Investor
+Banking,I want to apply for a business line of credit.,Business Credit Inquiry,New Opportunity,Small Business,Prospective Borrower
+Banking,How do I add a power of attorney to my account?,Account Authorization,Existing Customer,Standard,Estate Planning
+Banking,Can I get a personal financial review?,Financial Advisory Inquiry,Potential Buyer / Existing Customer,Standard,Prospective Planner
+Banking,What are the features of your mobile check deposit?,Digital Service Feature,Existing Customer,Standard,Digital User
+Banking,I'm moving and need to update my address with the bank.,Personal Info Update,Existing Customer,Standard,Routine User
+Banking,Do you have an ATM near [specific location]?,Location-based Service,Existing Customer,Standard,Routine User
+Banking,I'm interested in opening an IRA account.,Retirement Account Inquiry,New Opportunity,Standard,Prospective Investor
+Banking,What are the steps to set up direct debit for my mortgage?,Mortgage Service Setup,Existing Customer,Standard,Homeowner
+Banking,My online banking is showing incorrect information.,Data Discrepancy,Existing Customer / Risk (Dissatisfaction),Standard,Problem Solver
+Banking,How can I protect myself from identity theft?,Security Information,Information Seeker,Standard,Security Conscious
+Banking,I'd like to get a copy of a cleared check.,Document Request,Existing Customer,Standard,Routine User
+Banking,What are the eligibility criteria for your best mortgage rates?,Mortgage Eligibility,Potential Buyer,Standard,Prospective Borrower
+Banking,I'm calling to report a lost or stolen checkbook.,Security Reporting,Existing Customer,Standard,Emergency
+Banking,Do you offer online financial planning tools?,Digital Tools Inquiry,Existing Customer / Potential Buyer,Standard,Engaged User
+Banking,How do I enroll in e-statements?,Service Enrollment,Existing Customer,Standard,Digital Adopter
+Banking,I need information on applying for a student credit card.,Student Product Inquiry,Potential Buyer,Student,New Prospect
+Banking,What's the process for getting a certified check?,Service Request,Existing Customer,Standard,Routine User
+Banking,I'm trying to set up a new payee in bill pay and it's not working.,Technical Issue,Existing Customer,Standard,Digital User
+Banking,Can I speak to someone about a past due loan?,Delinquency Resolution,Risk (Credit),Standard,At-Risk Borrower
+Banking,What are the benefits of linking my savings and checking accounts?,Account Linking Benefits,Existing Customer,Standard,Engaged User
+Banking,How do I reorder checks?,Service Request,Existing Customer,Standard,Routine User
+Banking,I'm interested in setting up a payroll direct deposit for my employees.,Business Service Setup,New Opportunity,Small Business,New Prospect
+Banking,What are the fees for international wire transfers?,Fee Inquiry,Existing Customer / Potential Buyer,Standard,Global Transactor
+Banking,I need to speak to a mortgage specialist.,Mortgage Consultation,Potential Buyer,Standard,Prospective Borrower
+Banking,How can I set up automatic transfers between my accounts?,Recurring Transfer Setup,Existing Customer,Standard,Engaged User
+Banking,My online banking account is locked.,Account Access Issue,Existing Customer,Standard,Problem Solver
+Banking,Do you offer financial solutions for non-profits?,Niche Business Inquiry,New Opportunity,Corporate,Non-Profit Lead
+Banking,I want to apply for a commercial real estate loan.,Commercial Loan Inquiry,New Opportunity,Corporate,Business Owner
+Banking,What are the documents needed for a car loan application?,Loan Document Inquiry,Potential Buyer,Standard,Prospective Borrower
+Banking,I'm looking for information on your private banking services.,Premium Service Inquiry,New Opportunity,High-Net-Worth,Private Banking Lead
+Banking,How do I find my account number and routing number?,Account Information Request,Existing Customer,Standard,Routine User
+Banking,Can I deposit a foreign check at an ATM?,Deposit Inquiry,Existing Customer,Standard,Global Transactor
+Banking,What are the benefits of having a high-yield savings account?,Product Benefit Inquiry,Potential Buyer / Existing Customer,Standard,Prospective Investor
+Banking,I want to report a lost or stolen passbook.,Security Reporting,Existing Customer,Standard,Emergency
+Banking,How do I set up text alerts for my transactions?,Notification Setup,Existing Customer,Standard,Digital Adopter
+Banking,I'm interested in opening an educational savings account.,Specialized Savings Inquiry,New Opportunity,Parent,Prospective Investor
+Banking,What are your hours of operation for the branch on Main Street?,Branch Information,Existing Customer,Standard,Routine User
+Banking,I need to get a new credit card with a lower interest rate.,Product Upgrade/Change,Risk (Retention) / Existing Customer,Standard,Upsell Target / At-Risk
+Banking,Can you explain the terms of my adjustable-rate mortgage?,Mortgage Terms Clarification,Existing Customer,Standard,Homeowner
+Banking,I want to apply for a secured credit card.,Credit Building Product,Potential Buyer,Standard,Credit Builder
+Banking,How do I report a deceased account holder?,Deceased Account Support,Existing Customer (Support),Standard,Estate Support
+Banking,What are the implications of closing a joint checking account?,Account Closure Info,Existing Customer / Risk (Decision),Standard,Life Event
+Banking,Do you offer small business checking accounts with no monthly fees?,Business Product Inquiry,New Opportunity,Small Business,New Prospect
+Banking,I need to obtain a loan payoff statement.,Loan Payoff Request,Existing Customer,Standard,Borrower
+Banking,Can I get a temporary debit card?,Card Replacement,Existing Customer,Standard,Emergency
+Banking,What's the best way to save for a down payment on a house?,Financial Goal Planning,Potential Buyer,Standard,Prospective Homeowner
+Banking,I'm interested in your investment advisory services.,Investment Service Inquiry,New Opportunity,High-Net-Worth,Prospective Investor
+Banking,How do I report an unauthorized transaction on my bank statement?,Fraud Reporting,Existing Customer / Risk (Security),Standard,Emergency
+Banking,Do you have a preferred stock trading platform?,Investment Platform Inquiry,Potential Buyer,Standard,Investor
+Banking,I need to set up a new online banking user.,Account User Management,Existing Customer,Standard,Digital User
+Banking,What are the differences between using a credit union vs bank?,Comparative Inquiry,Potential Buyer,Standard,Information Seeker
+Banking,I'm looking for information on personal lines of credit.,Credit Product Inquiry,Potential Buyer,Standard,Prospective Borrower
+Banking,How do I set up a direct deposit for my government benefits?,Direct Deposit Setup,Existing Customer,Standard,Routine User
+Banking,Can I get a copy of my loan agreement?,Document Request,Existing Customer,Standard,Borrower
+Banking,What are the benefits of your premium credit cards?,Premium Product Inquiry,Potential Buyer / Existing Customer,Gold/Premium,Upsell Target
+Banking,I want to dispute a fee on my account.,Fee Dispute,Existing Customer / Risk (Dissatisfaction),Standard,Problem Solver
+Banking,How do I apply for a home equity line of credit?,HELOC Inquiry,Potential Buyer,Standard,Prospective Borrower
+Banking,I'm interested in opening a business checking account.,Business Account Inquiry,New Opportunity,Small Business,New Prospect
+Banking,What are the interest rates for savings accounts currently?,Savings Rate Inquiry,Potential Buyer / Existing Customer,Standard,Information Seeker
+Banking,Can I speak with someone about managing my estate?,Estate Planning Inquiry,Potential Buyer,High-Net-Worth,Estate Planner
+Banking,I need help understanding my credit score report.,Credit Score Assistance,Existing Customer,Standard,Financial Health
+Banking,How do I set up recurring transfers to an external account?,External Transfer Setup,Existing Customer,Standard,Engaged User
+Banking,I want to know about your online security measures.,Security Inquiry,Information Seeker,Standard,Security Conscious
+Banking,What's the process for changing my loan repayment date?,Loan Modification,Existing Customer / Risk (Credit),Standard,At-Risk Borrower
+Banking,Do you offer financial planning for small businesses?,Business Financial Planning,New Opportunity,Small Business,Prospective Planner
+Banking,I'm looking for information on commercial mortgages.,Commercial Mortgage Inquiry,New Opportunity,Corporate,Business Owner
+Banking,How can I access my credit card statements online?,Statement Access,Existing Customer,Standard,Digital User
+Banking,I need to close a deceased person's bank account.,Deceased Account Closure,Existing Customer (Support),Standard,Estate Support
+Banking,What are the requirements for a secured loan?,Secured Loan Inquiry,Potential Buyer,Standard,Prospective Borrower
+Banking,Can I get a copy of my mortgage closing documents?,Document Request,Existing Customer,Standard,Homeowner
+Banking,I'm interested in financial literacy for my children.,Financial Education,Existing Customer / Potential Buyer,Parent,Information Seeker
+Banking,How do I make a principal-only payment on my loan?,Loan Payment Inquiry,Existing Customer,Standard,Borrower
+Banking,What are the differences between your checking account tiers?,Account Comparison,Potential Buyer / Existing Customer,Standard,Upsell Target
+Banking,I need to update my signature on file.,Account Update,Existing Customer,Standard,Routine User
+Banking,Can I get a loan for debt consolidation?,Debt Consolidation Loan,Potential Buyer,Standard,At-Risk Borrower
+Banking,How do I report a missing deposit?,Deposit Issue,Existing Customer / Risk (Problem),Standard,Problem Solver
+Banking,Do you offer any special accounts for veterans?,Specialized Account Inquiry,New Opportunity,Veteran,New Prospect
+Banking,I'm interested in setting up a payroll service for my business.,Business Payroll Inquiry,New Opportunity,Small Business,New Prospect
+Banking,What are the foreign transaction fees on your credit cards?,Fee Inquiry,Existing Customer / Potential Buyer,Standard,Global Transactor
+Banking,I need to speak to someone about a complaint.,Complaint Resolution,Risk (Dissatisfaction),Standard,Dissatisfied User
+Banking (Transcription Focus),"Hi, I'm calling to check the balance on my checking account.",Balance Inquiry,Existing Customer,Standard,Routine User
+Banking (Transcription Focus),I need to speak to someone about a suspicious charge on my credit card.,Fraud/Dispute Reporting,Existing Customer / Risk (Security),Standard,Emergency
+Banking (Transcription Focus),Can you tell me if I have any pending transactions?,Transaction Status Inquiry,Existing Customer,Standard,Routine User
+Banking (Transcription Focus),"My card was declined at the store, what's going on?",Card Issue Resolution,Existing Customer / Risk (Dissatisfaction),Standard,Problem Solver
+Banking (Transcription Focus),I'd like to transfer money from my savings to my checking.,Fund Transfer Request,Existing Customer,Standard,Routine User
+Banking (Transcription Focus),What are the requirements for opening a joint account?,Account Opening Inquiry,Potential Buyer,Standard,New Prospect
+Banking (Transcription Focus),"I received a call about a loan offer, can you confirm it's legitimate?",Scam/Fraud Verification,Existing Customer / Risk (Security),Standard,Security Conscious
+Banking (Transcription Focus),How do I update my address on file?,Personal Information Update,Existing Customer,Standard,Routine User
+Banking (Transcription Focus),I want to set up an alert for low balance.,Account Alert Setup,Existing Customer,Standard,Digital Adopter
+Banking (Transcription Focus),What's the current interest rate for a fixed deposit?,Product Information Inquiry,Potential Buyer,Standard,Prospective Investor
+Banking (Transcription Focus),"I'm having trouble with the mobile app, it keeps crashing.",Technical Support,Existing Customer,Standard,Digital User
+Banking (Transcription Focus),Can I get an extension on my loan payment due date?,Payment Modification Request,Risk (Credit),Standard,At-Risk Borrower
+Banking (Transcription Focus),I need a statement for my tax purposes.,Document Request,Existing Customer,Standard,Routine User
+Banking (Transcription Focus),How can I apply for a small business loan?,Business Loan Inquiry,New Opportunity,Small Business,New Prospect
+Banking (Transcription Focus),I'm calling about a direct debit that wasn't authorized.,Unauthorized Transaction Dispute,Existing Customer / Risk (Dissatisfaction),Standard,Problem Solver
+Banking (Transcription Focus),What are the benefits of your credit card rewards program?,Rewards Program Inquiry,Potential Buyer / Existing Customer,Standard,Engaged User
+Banking (Transcription Focus),I want to close my old credit card account.,Account Closure Request,Risk (Churn),Standard,Churn Risk
+Banking (Transcription Focus),Can you help me reset my online banking password?,Account Access Support,Existing Customer,Standard,Digital User
+Banking (Transcription Focus),I'm interested in learning about your mortgage options.,Mortgage Inquiry,Potential Buyer,Standard,Prospective Borrower
+Banking (Transcription Focus),What's the process for reporting identity theft?,Security Incident Reporting,Risk (Security),Standard,Emergency
+Banking (Transcription Focus),Do you offer any investment advice for beginners?,Investment Education Inquiry,New Opportunity,Standard,Prospective Investor
+Banking (Transcription Focus),My international transfer hasn't gone through yet.,International Transfer Status,Existing Customer,Standard,Global Transactor
+Banking (Transcription Focus),"I received an SMS about unusual activity, is it from the bank?",Security Alert Verification,Existing Customer / Risk (Security),Standard,Security Conscious
+Banking (Transcription Focus),What are the ATM withdrawal limits?,Service Limit Inquiry,Existing Customer,Standard,Routine User
+Banking (Transcription Focus),I'd like to open a fixed deposit account.,New Product Opening,New Opportunity,Standard,Prospective Investor
+Financial Services,Tell me about wealth management for retirement.,Seeking investment advice,Potential Buyer,High-Net-Worth,Prospective Investor
+Financial Services,How can I invest in mutual funds?,Interest in investment products,New Opportunity,Standard,Prospective Investor
+Financial Services,My portfolio isn't performing as expected. What should I do?,Concern about existing investments,Risk (Retention),Gold/Premium,At-Risk Investor
+Financial Services,I'm looking for a financial advisor to plan my future.,Seeking professional guidance,Potential Buyer,Standard,Prospective Planner
+Financial Services,What are the tax implications of selling stocks?,Seeking financial planning information,Potential Buyer,Standard,Information Seeker
+Financial Services,I need to consolidate my debts.,Debt management needs,Potential Buyer / Risk (Debt),Standard,At-Risk Client
+Financial Services,How often should I review my financial plan?,Engagement with financial planning,Existing Customer,Standard,Engaged Client
+Financial Services,I'm worried about market volatility affecting my savings.,Concern about financial security,Risk (Anxiety/Churn),Standard,Anxious Investor
+Financial Services,Can you explain different types of bonds?,Educational inquiry / early research,New Opportunity,Standard,Information Seeker
+Financial Services,I received a suspicious email from your company.,Security concern / fraud reporting,Existing Customer (Support),Standard,Security Conscious
+Financial Services,What are the steps to set up an IRA?,Interest in retirement accounts,New Opportunity,Standard,Prospective Investor
+Financial Services,I want to understand more about estate planning.,Seeking long-term financial advice,Potential Buyer,High-Net-Worth,Estate Planner
+Financial Services,How do I access my investment statements online?,Document retrieval,Existing Customer,Standard,Routine User
+Financial Services,Can you help me set up a college savings plan?,Specific financial goal planning,Potential Buyer,Parent,Prospective Planner
+Financial Services,I'm thinking about early retirement. What are the implications?,Exploring significant life changes,Potential Buyer / Existing Customer,Standard,Life Event Planner
+Financial Services,What are your fees for managing an investment portfolio?,Cost inquiry / comparison shopping,Potential Buyer,Standard,Cost-Sensitive
+Financial Services,I'm interested in socially responsible investing.,Specific investment preference,New Opportunity,Standard,Niche Investor
+Financial Services,How do I update my beneficiaries on my accounts?,Account maintenance,Existing Customer,Standard,Routine User
+Financial Services,I need advice on managing my small business finances.,Business financial planning,Potential Buyer,Small Business,Prospective Planner
+Financial Services,What are the risks associated with cryptocurrency investments?,Risk education / new product interest,Potential Buyer,Standard,Crypto Interest
+Financial Services,Can I get a second opinion on my current financial strategy?,Seeking validation / new advisor,Potential Buyer,Gold/Premium,Prospective Client
+Financial Services,I'm experiencing a financial hardship and need guidance.,Seeking assistance / high risk,Risk (Financial Distress),Standard,At-Risk Client
+Financial Services,How can I prepare for unexpected medical expenses?,Planning for contingencies,Potential Buyer,Standard,Planner
+Financial Services,Tell me about your robo-advisor services.,Interest in automated investing,New Opportunity,Standard,Digital Investor
+Financial Services,I need to transfer assets from another institution.,Asset consolidation / onboarding,New Opportunity,Standard,Prospective Client
+Financial Services,I'm looking for information on alternative investments.,Advanced Investment Inquiry,New Opportunity / Potential Buyer,Sophisticated Investor,Sophisticated Investor
+Financial Services,How do I rebalance my investment portfolio?,Portfolio Management,Existing Customer,Gold/Premium,Engaged Investor
+Financial Services,What are the benefits of a Roth IRA versus a traditional IRA?,Retirement Account Comparison,Potential Buyer,Standard,Information Seeker
+Financial Services,Can I speak to someone about charitable giving strategies?,Philanthropic Planning,Potential Buyer,High-Net-Worth,Philanthropist
+Financial Services,My advisor isn't returning my calls.,Advisor Dissatisfaction,Risk (Retention),Gold/Premium,Dissatisfied Client
+Financial Services,What's the process for withdrawing funds from my 401k?,Retirement Fund Withdrawal,Existing Customer,Standard,Retiree
+Financial Services,I need help understanding my investment statements.,Statement Interpretation,Existing Customer,Standard,Problem Solver
+Financial Services,How can I minimize capital gains tax?,Tax Planning Inquiry,Potential Buyer,Gold/Premium,Tax Planner
+Financial Services,Do you offer trust services for complex estates?,Estate Planning Service,New Opportunity,High-Net-Worth,Estate Planner
+Financial Services,I'm concerned about market volatility affecting my retirement.,Economic Concern,Risk (Anxiety),Standard,Anxious Investor
+Financial Services,What are the best long-term investment strategies?,Long-Term Investment Inquiry,Potential Buyer,Standard,Prospective Investor
+Financial Services,I want to set up an annuity.,Annuity Inquiry,Potential Buyer,Standard,Prospective Investor
+Financial Services,How do I choose the right index fund?,Investment Selection Advice,Potential Buyer,Standard,Investor
+Financial Services,Can I transfer my brokerage account to your firm?,Account Transfer,New Opportunity,Standard,Prospective Client
+Financial Services,What are the qualifications of your financial advisors?,Advisor Credential Inquiry,Potential Buyer,Standard,Information Seeker
+Financial Services,I need advice on managing my child's inheritance.,Wealth Management,Potential Buyer,High-Net-Worth,Parent
+Financial Services,How can I get started with fractional share investing?,New Investment Type Inquiry,New Opportunity,Standard,New Investor
+Financial Services,What's your stance on ethical investing?,Investment Philosophy Inquiry,Potential Buyer,Standard,Values-Driven Investor
+Financial Services,My investment account login isn't working.,Technical Support,Existing Customer,Standard,Digital User
+Financial Services,I'm looking for a financial planning checklist.,Planning Tool Inquiry,Information Seeker,Standard,Planner
+Financial Services,Do you offer educational seminars on investing?,Educational Opportunity,Potential Buyer / Existing Customer,Standard,Information Seeker
+Financial Services,How does a mutual fund differ from an ETF?,Investment Comparison,Information Seeker,Standard,Information Seeker
+Financial Services,I want to set up a custodial account for my grandchild.,Specialized Account Inquiry,New Opportunity,Standard,Family Planner
+Financial Services,What are the risks associated with private equity?,Risk Education,Information Seeker,Sophisticated Investor,Sophisticated Investor
+Financial Services,Can I schedule a meeting with a financial planner?,Meeting Request,Potential Buyer,Standard,Prospective Planner
+Financial Services,I need a valuation of my business for sale.,Business Valuation Service,Potential Buyer,Small Business,Business Owner
+Financial Services,How do I report a deceased relative's investment account?,Deceased Account Support,Existing Customer (Support),Standard,Estate Support
+Financial Services,What are the current market trends affecting my portfolio?,Market Update Inquiry,Existing Customer,Standard,Engaged Investor
+Financial Services,I'm interested in tax-loss harvesting strategies.,Tax Strategy Inquiry,Potential Buyer,Gold/Premium,Tax Planner
+Financial Services,Do you offer direct indexing?,Advanced Investment Inquiry,New Opportunity,Sophisticated Investor,Sophisticated Investor
+Financial Services,How do I update my risk tolerance profile?,Account Update,Existing Customer,Standard,Engaged Client
+Financial Services,I'm looking for advice on managing my employee stock options.,Executive Financial Planning,Potential Buyer,High-Net-Worth,Corporate Employee
+Financial Services,What are the advantages of setting up a revocable living trust?,Estate Planning Education,Information Seeker,Standard,Estate Planner
+Financial Services,Can I access my portfolio performance reports online?,Performance Report Access,Existing Customer,Standard,Engaged Investor
+Financial Services,I need help understanding my retirement projections.,Retirement Planning Support,Existing Customer,Standard,Retiree
+Financial Services,What are the rules for early withdrawals from a 529 plan?,Education Savings Inquiry,Existing Customer / Potential Buyer,Parent,Information Seeker
+Financial Services,Do you provide socially responsible investment screens?,ESG Investment Inquiry,New Opportunity,Standard,Niche Investor
+Financial Services,How often should I meet with my financial advisor?,Engagement Inquiry,Existing Customer,Standard,Engaged Client
+Financial Services,I'm exploring options for passive income investments.,Income Generation Inquiry,Potential Buyer,Standard,Prospective Investor
+Financial Services,What are the legal implications of gifting assets?,Gifting Advice,Potential Buyer,High-Net-Worth,Estate Planner
+Financial Services,I want to diversify my portfolio. What are my options?,Diversification Inquiry,Existing Customer / Potential Buyer,Standard,Engaged Investor
+Financial Services,How do I set up a recurring investment plan?,Automated Investing Setup,Existing Customer,Standard,Digital Investor
+Financial Services,Can I get a detailed breakdown of my advisor's fees?,Fee Transparency Inquiry,Existing Customer / Risk (Retention),Gold/Premium,Cost-Sensitive
+Financial Services,What are the latest regulations affecting my investments?,Regulatory Inquiry,Information Seeker,Standard,Informed Investor
+Financial Services,I'm interested in opening an HSA for healthcare savings.,Health Savings Account Inquiry,New Opportunity,Standard,Healthcare Planner
+Financial Services,How do I transfer funds from my investment account to my bank?,Fund Transfer,Existing Customer,Standard,Routine User
+Financial Services,What's the best strategy for saving for a down payment on a second home?,Specialized Savings Planning,Potential Buyer,Standard,Prospective Homeowner
+Financial Services,Do you have tools to project my retirement income?,Planning Tool Inquiry,Potential Buyer,Standard,Planner
+Financial Services,I need to update my personal information for my investment account.,Personal Info Update,Existing Customer,Standard,Routine User
+Financial Services,What are the tax advantages of various retirement accounts?,Tax Advantage Inquiry,Information Seeker,Standard,Tax Planner
+Financial Services,I'm worried about outliving my retirement savings.,Longevity Risk Concern,Risk (Anxiety),Standard,Anxious Retiree
+Financial Services,Can I get advice on selling a business?,Business Sale Planning,Potential Buyer,Small Business,Business Owner
+Financial Services,How do I set up direct deposit for my investment dividends?,Dividend Setup,Existing Customer,Standard,Investor
+Financial Services,What are the minimum investment requirements?,Investment Threshold Inquiry,Potential Buyer,Standard,Prospective Investor
+Financial Services,I'd like to learn about real estate investment trusts.,REIT Inquiry,New Opportunity,Standard,Prospective Investor
+Financial Services,How do I enroll in electronic statements for my investments?,E-Statement Enrollment,Existing Customer,Standard,Digital Adopter
+Financial Services,How do I enroll in electronic statements for my investments?,E-Statement Enrollment,Existing Customer,Standard,Digital Adopter
+Financial Services,Can I set up automatic contributions to my investment account?,Recurring Contribution Setup,Existing Customer,Standard,Engaged Investor
+Financial Services,What happens to my investments if I move to another country?,International Tax/Relocation,Existing Customer,High-Net-Worth,Global Client
+Financial Services,I need to report suspicious activity on my investment account.,Fraud Reporting,Existing Customer / Risk (Security),Standard,Emergency
+Financial Services,Do you offer financial literacy programs for young adults?,Educational Outreach,Potential Buyer,Parent,Educator
+Financial Services,How can I access historical performance data for my portfolio?,Historical Data Access,Existing Customer,Standard,Engaged Investor
+Financial Services,What are the benefits of consolidating my retirement accounts?,Consolidation Benefits,Existing Customer / Potential Buyer,Standard,Retirement Planner
+Financial Services,I'm looking for a financial advisor specializing in tech industry professionals.,Niche Advisor Search,Potential Buyer,High-Net-Worth,Professional
+Financial Services,How do I update my address on my investment account?,Address Update,Existing Customer,Standard,Routine User
+Financial Services,What are the tax implications of withdrawing from a taxable brokerage account?,Tax Withdrawal Inquiry,Existing Customer,Standard,Tax Planner
+Financial Services,Can you help me understand complex financial products?,Product Explanation,Information Seeker,Sophisticated Investor,Sophisticated Investor
+Financial Services,I want to set up a Donor-Advised Fund (DAF).,Philanthropic Planning,New Opportunity,High-Net-Worth,Philanthropist
+Financial Services,What are the current bond market conditions?,Market Condition Inquiry,Information Seeker,Standard,Engaged Investor
+Financial Services,Do you have an online portal for managing investments?,Digital Platform Inquiry,Existing Customer,Standard,Digital User
+Financial Services,I'm interested in setting up a self-directed brokerage account.,DIY Investing Inquiry,New Opportunity,Standard,Self-Directed Investor
+Financial Services,How do I change my investment objectives?,Objective Update,Existing Customer,Gold/Premium,Engaged Investor
+Financial Services,What are the risks of investing in emerging markets?,Risk Education,Information Seeker,Sophisticated Investor,Sophisticated Investor
+Financial Services,Can I get a detailed fee schedule for all your services?,Detailed Fee Inquiry,Potential Buyer,Standard,Cost-Sensitive
+Financial Services,I need to speak to someone about a complaint regarding my investment performance.,Complaint Resolution,Risk (Dissatisfaction),Gold/Premium,Dissatisfied Client
+Financial Services,How do I access research reports on specific companies?,Research Access,Existing Customer,Standard,Engaged Investor
+Travel/Hospitality,I want to book a flight to Paris for next month.,Direct Booking Intent,Potential Buyer,Standard Traveler,Leisure Traveler
+Travel/Hospitality,What are the best hotels in Rome near the Colosseum?,Researching Accommodation,Potential Buyer,Standard Traveler,Planner / Explorer
+Travel/Hospitality,Can I change my flight dates for my upcoming trip to Tokyo?,Trip Modification,Existing Customer,Standard Traveler,Active Traveler
+Travel/Hospitality,My luggage was lost after my flight. What should I do?,Post-Travel Support / Issue Resolution,Existing Customer,Standard Traveler,Distressed Traveler
+Travel/Hospitality,I'm looking for vacation packages to the Caribbean.,Package Exploration,New Opportunity,Leisure Traveler,New Prospect
+Travel/Hospitality,What's the cancellation policy for hotel reservations?,Policy Inquiry / Potential Cancellation Risk,Risk (Churn/Cancellation),Standard Traveler,Concerned Traveler
+Travel/Hospitality,How do I earn points with your loyalty program?,Loyalty Program Inquiry,Potential Buyer / Existing Customer,Loyal Customer,Engaged Traveler
+Travel/Hospitality,I need a car rental for my trip to Orlando.,Ancillary Service Booking,Potential Buyer,Standard Traveler,Trip Planner
+Travel/Hospitality,Are there any travel restrictions for entering Canada?,Travel Information Inquiry,Information Seeker,Standard Traveler,Information Seeker
+Travel/Hospitality,I want to leave a review for my recent stay at your hotel.,Feedback Submission,Existing Customer,Standard Traveler,Engaged Traveler
+Travel/Hospitality,Tell me about your guided tours in New York City.,Activity/Tour Inquiry,Potential Buyer,Standard Traveler,Experience Seeker
+Travel/Hospitality,Is breakfast included with my hotel reservation?,Specific Amenity Inquiry,Existing Customer,Standard Traveler,Routine User
+Travel/Hospitality,How can I apply for a travel visa to Australia?,Visa/Documentation Inquiry,Potential Buyer,International Traveler,Pre-Travel Planner
+Travel/Hospitality,I missed my connecting flight. Can you help me rebook?,In-Travel Emergency Support,Existing Customer,Standard Traveler,Distressed Traveler
+Travel/Hospitality,What are the family-friendly resorts in Hawaii?,Niche Travel Inquiry,Potential Buyer,Family Traveler,Vacation Planner
+Travel/Hospitality,Do you offer travel insurance for international trips?,Ancillary Service Inquiry,Potential Buyer,Standard Traveler,Concerned Traveler
+Travel/Hospitality,My booking confirmation never arrived.,Booking Confirmation Issue,Existing Customer,Standard Traveler,Problem Solver
+Travel/Hospitality,I'm interested in a cruise vacation.,Cruise Inquiry,New Opportunity,Cruise Enthusiast,New Prospect
+Travel/Hospitality,What's the best time to visit Europe for fewer crowds?,Travel Planning Advice,Information Seeker,Standard Traveler,Planner / Explorer
+Travel/Hospitality,Can I get a refund for an unused hotel night?,Refund Inquiry,Risk (Dissatisfaction),Standard Traveler,Problem Solver
+Travel/Hospitality,How can I check in online for my flight?,Pre-Travel Service,Existing Customer,Standard Traveler,Digital Adopter
+Travel/Hospitality,I'm looking for accessible travel options.,Specific Needs Inquiry,Potential Buyer,Traveler with Needs,New Prospect
+Travel/Hospitality,What are the COVID-19 protocols for your hotels?,Health/Safety Inquiry,Information Seeker,Health-Conscious Traveler,Information Seeker
+Travel/Hospitality,Do you have any last-minute travel deals?,Deal Seeking,Potential Buyer,Budget Traveler,Deal Seeker
+Travel/Hospitality,I want to upgrade my flight seat.,Service Upgrade,Existing Customer,Standard Traveler,Upsell Target
+Healthcare,I need to schedule an appointment with a dermatologist.,Appointment Booking,New Patient,Standard Patient,New Patient
+Healthcare,What are the symptoms of strep throat?,Symptom/Condition Inquiry,Information Seeker / Potential Patient,Standard Patient,Concerned Individual
+Healthcare,Can I get a refill for my prescription?,Prescription Request,Existing Patient,Standard Patient,Routine Patient
+Healthcare,How do I access my medical records online?,Medical Record Access,Existing Patient,Standard Patient,Engaged Patient
+Healthcare,I'm looking for a new primary care physician in my area.,Provider Search,New Patient,Standard Patient,New Patient
+Healthcare,What is the cost of a general check-up without insurance?,Cost Inquiry,Potential Patient,Standard Patient,Cost-Sensitive Patient
+Healthcare,I'm experiencing severe chest pain. What should I do?,Urgent Medical Concern,Risk (High Urgency),Standard Patient,Emergency Patient
+Healthcare,Can you explain my recent lab results?,Result Interpretation,Existing Patient,Standard Patient,Engaged Patient
+Healthcare,Do you offer telemedicine appointments?,Service Inquiry,New Patient / Existing Patient,Standard Patient,Digital-Savvy Patient
+Healthcare,How do I update my insurance information?,Administrative Update,Existing Patient,Standard Patient,Routine Patient
+Healthcare,I need information on preventative care for heart disease.,Health Education,Information Seeker,Standard Patient,Health-Conscious Individual
+Healthcare,What vaccines are recommended for adults?,Vaccine Inquiry,Potential Patient,Standard Patient,Health-Conscious Individual
+Healthcare,I want to get a second opinion on my diagnosis.,Second Opinion Seeking,Potential Patient / Existing Patient (High Risk),Standard Patient,Critical Patient
+Healthcare,How do I pay my medical bill online?,Billing Inquiry,Existing Patient,Standard Patient,Engaged Patient
+Healthcare,Tell me about your maternity services.,Specific Service Inquiry,New Patient,Standard Patient,Expectant Parent
+Healthcare,I'm interested in joining a clinical trial.,Research Participation,Information Seeker,Standard Patient,Research-Oriented
+Healthcare,What support groups are available for chronic pain?,Support Service Inquiry,Existing Patient,Standard Patient,Patient with Chronic Condition
+Healthcare,My appointment was canceled. How do I reschedule?,Appointment Rescheduling,Existing Patient,Standard Patient,Routine Patient
+Healthcare,Do you offer mental health counseling?,Mental Health Service Inquiry,New Patient,Standard Patient,Concerned Individual
+Healthcare,I'm having trouble logging into the patient portal.,Technical Support,Existing Patient,Standard Patient,Digital User
+Healthcare,What is the waiting time for an urgent care visit?,Service Availability Inquiry,Potential Patient,Standard Patient,Urgent Care Seeker
+Healthcare,Can I get a referral to a specialist?,Referral Request,Existing Patient,Standard Patient,Routine Patient
+Healthcare,I need to report a side effect from a medication.,Adverse Event Reporting,Existing Patient,Standard Patient,Concerned Patient
+Healthcare,How can I prepare for my upcoming surgery?,Pre-Procedure Information,Existing Patient,Standard Patient,Pre-Surgery Patient
+Healthcare,What are my rights as a patient?,Patient Rights Inquiry,Information Seeker,Standard Patient,Informed Patient
+E-commerce,I want to buy a new laptop.,Product Purchase Intent,Potential Buyer,Standard Buyer,Tech Enthusiast
+E-commerce,Where is my order #12345?,Order Tracking,Existing Customer,Standard Buyer,Active Buyer
+E-commerce,How do I return a shirt I bought last week?,Return/Exchange Inquiry,Existing Customer,Standard Buyer,Post-Purchase
+E-commerce,Do you have this dress in a size medium?,Product Availability/Inquiry,Potential Buyer,Standard Buyer,Shopper
+E-commerce,I'm looking for a gift for my friend who likes cooking.,Gift/Category Browsing,Potential Buyer,Standard Buyer,Gift Giver
+E-commerce,My payment didn't go through.,Payment Issue,Potential Buyer / Existing Customer,Standard Buyer,Frustrated Buyer
+E-commerce,What are your shipping options to Canada?,Shipping Inquiry,Potential Buyer,Standard Buyer,International Buyer
+E-commerce,Can I use multiple discount codes on one order?,Promotion Inquiry,Potential Buyer,Standard Buyer,Deal Seeker
+E-commerce,I received a damaged item.,Damaged Goods Report,Existing Customer,Standard Buyer,Dissatisfied Buyer
+E-commerce,How do I create an account?,Account Creation Inquiry,New Opportunity,Standard Buyer,New User
+E-commerce,Tell me about your loyalty points program.,Loyalty Program Inquiry,Potential Buyer / Existing Customer,Loyal Buyer,Engaged Buyer
+E-commerce,I want to unsubscribe from your marketing emails.,Unsubscribe Request,Risk (Churn),Standard Buyer,Churn Risk
+E-commerce,Do you offer gift cards?,Gift Card Inquiry,Potential Buyer,Standard Buyer,Gift Giver
+E-commerce,What's the warranty on this blender?,Product Warranty Inquiry,Potential Buyer,Standard Buyer,Concerned Buyer
+E-commerce,I forgot my password.,Account Access Issue,Existing Customer,Standard Buyer,Digital User
+E-commerce,Are there any upcoming sales?,Sales/Promotion Inquiry,Potential Buyer,Standard Buyer,Deal Seeker
+E-commerce,I want to leave a product review.,Feedback/Review Submission,Existing Customer,Standard Buyer,Engaged Buyer
+E-commerce,How can I cancel my subscription?,Subscription Cancellation,Risk (Churn),Standard Buyer,Churn Risk
+E-commerce,Can I change my shipping address after placing an order?,Order Modification,Existing Customer,Standard Buyer,Active Buyer
+E-commerce,What's your privacy policy regarding my data?,Privacy Inquiry,Information Seeker,Standard Buyer,Privacy Conscious
+E-commerce,I'm having trouble adding items to my cart.,Technical Issue (Website),Potential Buyer,Standard Buyer,Frustrated Buyer
+E-commerce,Do you offer price matching?,Price Comparison/Inquiry,Potential Buyer,Standard Buyer,Price-Sensitive Buyer
+E-commerce,I want to report a fake product listing.,Fraud Reporting,Information Seeker / Customer Support,Standard Buyer,Security Conscious
+E-commerce,Can I pick up my order in-store?,Pickup Option Inquiry,Potential Buyer,Standard Buyer,Local Shopper
+E-commerce,Tell me about your sustainable product range.,Specific Product Category Interest,New Opportunity,Standard Buyer,Eco-Conscious Buyer
