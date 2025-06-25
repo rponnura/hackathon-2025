@@ -10,6 +10,7 @@ from sklearn.metrics import mean_squared_error, accuracy_score
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
+import requests
 
 # Suppress the DataFrame copy warning
 pd.options.mode.chained_assignment = None  # default='warn'
@@ -328,7 +329,7 @@ def load_performance_model(model_path='agent_performance_model.pkl'):
 def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(description="Agent recommendation based on intent")
-    parser.add_argument('intent', nargs='?', default='payment', type=str, 
+    parser.add_argument('intent', nargs='?', default='', type=str, 
                         help='Customer intent (e.g., payment, balance, etc.)')
     parser.add_argument('--top', type=int, default=1, help='Number of top agents to recommend')
     parser.add_argument('--data', type=str, default="agent_new_metrics.csv", 
@@ -340,6 +341,18 @@ def main():
     intent = args.intent
     top_n = args.top
     data_path = args.data
+
+    if intent == "":
+        data = {
+            "Industry": "Banking",
+            "Customer Action/Query": "what's up?",
+            "Customer Type": "Standard", 
+            "Customer Profile": "Engaged User"
+        }
+        response = requests.post("http://127.0.0.1:5000/predict", json=data)
+        resp = response.json()
+        intent = resp["Inferred Intent"]
+        print("inferred intent is ", intent)
     
     # Load data
     print(f"Loading data from {data_path}...")
