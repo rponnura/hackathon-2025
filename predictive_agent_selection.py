@@ -35,8 +35,8 @@ def listwise_ranking(agents_df, intent, metrics_weights=None, performance_model=
     if metrics_weights is None:
         metrics_weights = {
             'avg_sentiment_score': 0.4,  # Higher is better
-            'avg_silence': -0.3,         # Lower is better (negative weight)
-            'avg_acw': -0.3,             # Lower is better (negative weight)
+            'avg_silence': -0.3,         # Lower is better 
+            'avg_acw': -0.3,             # Lower is better
             'skill_proficiency': 0.2,    # Higher is better
             'language_proficiency': 0.1  # Higher is better
         }
@@ -343,12 +343,23 @@ def main():
     data_path = args.data
 
     if intent == "":
+        ##################################################################
+        ######################INPUT##INPUT################################
+        ##################################################################
         data = {
             "Industry": "Banking",
-            "Customer Action/Query": "what's up?",
+            # "Customer Action/Query": "Can I link my external bank account for transfers?",
+            # "Customer Action/Query": "I'd like to increase the daily limit on my debit card.",
+            # "Customer Action/Query": "Do you offer online financial planning tools?",
+            # "Customer Action/Query": "Can I increase my credit limit?",
+            "Customer Action/Query": "I'm interested in setting up direct deposit for my paycheck.",
             "Customer Type": "Standard", 
-            "Customer Profile": "Engaged User"
+            "Customer Profile": "Engaged user"
+            # "Customer Profile": "New Prospect"
         }
+        ##################################################################
+        ########################INPUT##INPUT##############################
+        ##################################################################
         response = requests.post("http://127.0.0.1:5000/predict", json=data)
         resp = response.json()
         intent = resp["Inferred Intent"]
@@ -405,8 +416,8 @@ def main():
         if 'user name' in top_agent:
             print(f"Name: {top_agent['user name']}")
         
-        if 'division name' in top_agent:
-            print(f"Division: {top_agent['division name']}")
+        # if 'division name' in top_agent:
+        #     print(f"Division: {top_agent['division name']}")
         
         if 'avg_sentiment_score' in top_agent:
             print(f"Sentiment Score: {top_agent['avg_sentiment_score']:.4f}")
